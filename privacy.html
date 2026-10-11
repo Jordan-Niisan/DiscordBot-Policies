@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for DiscordBot.">
+  <title>Privacy Policy | DiscordBot</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <nav><a href="index.html">← DiscordBot policies</a></nav>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective October 11, 2026</p>
+
+    <p>This policy explains how DiscordBot processes information when it is installed in or used from a Discord server.</p>
+
+    <h2>Information processed</h2>
+    <ul>
+      <li>Discord user, server, role, channel, and message identifiers needed to execute commands and enforce permissions.</li>
+      <li>Message content when a user invokes a command, mentions the bot with a question, configures a welcome message, or uses a saved reply.</li>
+      <li>Server configuration, including welcome and moderation-log channels, warning records, moderator identifiers, reasons, and timestamps.</li>
+      <li>Search terms and media URLs supplied to GIF and music commands.</li>
+      <li>Operational error information needed to diagnose failures. The bot does not intentionally log passwords, Discord bot tokens, or ChatGPT credentials.</li>
+    </ul>
+
+    <h2>How information is used</h2>
+    <p>Information is used to respond to commands, generate requested AI replies, play requested media, manage roles and moderation actions, send welcome messages, prevent abuse, and maintain the bot.</p>
+
+    <h2>Third-party processing</h2>
+    <ul>
+      <li><strong>Discord</strong> delivers messages, commands, user details, and server events to the bot.</li>
+      <li><strong>OpenAI</strong> receives the question supplied through an AI command or direct bot mention. Requests are made with API response storage disabled.</li>
+      <li><strong>Giphy</strong> receives GIF search terms when the GIF command is used.</li>
+      <li><strong>YouTube and related media services</strong> may receive media requests when music features resolve and stream a supplied URL.</li>
+    </ul>
+    <p>Those providers process information under their own privacy policies. DiscordBot does not sell personal information.</p>
+
+    <h2>Storage and retention</h2>
+    <p>Server settings and moderation warning records are stored by server ID in the bot's local configuration until they are cleared, the bot operator removes them, or the bot is decommissioned. Ordinary AI questions and command messages are processed transiently and are not intentionally saved by DiscordBot. Third-party providers may retain information according to their own policies.</p>
+
+    <h2>Authentication credentials</h2>
+    <p>The bot's Discord token and ChatGPT authorization credentials are available only to the bot operator and are not intentionally exposed to Discord users. ChatGPT credentials are stored on the computer hosting the bot rather than in the public source repository.</p>
+
+    <h2>Security</h2>
+    <p>Reasonable measures are used to restrict access to credentials and stored configuration. No online system can guarantee absolute security, so users should not submit secrets or highly sensitive personal information to the bot.</p>
+
+    <h2>Your choices</h2>
+    <p>You may avoid optional AI, GIF, music, saved-reply, and moderation features. Server administrators can remove the bot or clear supported configuration and warning records. To request access to or deletion of stored information, open a request through the project issue tracker without posting sensitive information. The operator will arrange any identifying details needed to process the request.</p>
+
+    <h2>Children's privacy</h2>
+    <p>DiscordBot is not intended for anyone below the minimum age required to use Discord in their country.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>This policy may be updated when the bot or its integrations change. The effective date above will be revised when material updates are published.</p>
+
+    <h2>Contact</h2>
+    <p>Privacy questions and deletion requests may be submitted through the <a href="https://github.com/Jordan-Niisan/DiscordBot-Policies/issues">public policy issue tracker</a>. Do not post passwords, tokens, or other sensitive information.</p>
+  </main>
+</body>
+</html>
